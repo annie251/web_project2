@@ -1,13 +1,66 @@
-.title {
+/* General body styling */
+.body {
+  font-family: Arial, sans-serif;
   text-align: center;
+  padding: 20px;
 }
 
-.body {
-  height: 500px; 
-  width: 500px;
-  margin: 0 auto;
+/* Title styling */
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Description styling */
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Flashcards container styling */
+.flashcards-container {
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  margin-bottom: 20px;
 }
 
+/* Flashcard styling */
+.flash-card {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.flash-card h4 {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Next button styling */
+.next-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
